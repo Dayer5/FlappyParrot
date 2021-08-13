@@ -1,0 +1,15 @@
+/* Page Background Image/ Color */
+body{
+    /* background-image: url('../image/backgroundSpaceInvaders.jpeg'); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+/* Center Canvas */
+#canvasID{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+}
